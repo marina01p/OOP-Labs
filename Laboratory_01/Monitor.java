@@ -1,3 +1,5 @@
+package Laboratory_01;
+
 public class Monitor{
     public String color;
     public int dimension;

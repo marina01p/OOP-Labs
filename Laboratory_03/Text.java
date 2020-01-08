@@ -1,3 +1,4 @@
+package Laboratory_03;
 import java.util.*;
 
 public class Text {

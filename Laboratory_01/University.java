@@ -1,3 +1,5 @@
+package Laboratory_01;
+
 public class University {
 
     public Student[] student;

@@ -1,3 +1,5 @@
+package Laboratory_02;
+
 public class Main{
     public static void main(String[] args){
         System.out.println("Basic Level:");
@@ -36,7 +38,7 @@ public class Main{
         q2.isFull();
 
         System.out.println("The queue has " + q2.size() + " elements.");
-        }
-
-
     }
+
+
+}

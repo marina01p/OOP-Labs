@@ -1,3 +1,5 @@
+package Laboratory_02;
+
 public class Box {
 
     int height;
@@ -35,4 +37,3 @@ public class Box {
     }
 
 }
-

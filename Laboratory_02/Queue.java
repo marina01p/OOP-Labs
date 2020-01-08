@@ -1,3 +1,5 @@
+package Laboratory_02;
+
 public class Queue{
     int capacity;
     int[] queue;
