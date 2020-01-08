@@ -13,7 +13,7 @@ public class Main {
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
 
-        JLabel title = new JLabel("Love math but don't know how to devide? No problems, enter two numbers below.");
+        JLabel title = new JLabel("Love math but don't know how to divide? No problems, enter two numbers below.");
         JLabel resultLabel = new JLabel();
 
         JTextArea error = new JTextArea();
@@ -24,13 +24,13 @@ public class Main {
         final JScrollPane scroll = new JScrollPane(error);
         JTextField dividend = new JTextField(5);
         JTextField divisor = new JTextField(5);
-        JButton devide = new JButton("Devide");
-        Color  grey  = new Color(152, 148, 175, 197);
-        devide.setForeground(Color.BLACK);
-        devide.setBackground(grey);
+        JButton divide = new JButton("Divide");
+        divide.setForeground(Color.BLACK);
+        divide.setBackground(Color.WHITE);
 
 
         JPanel panel = new JPanel();
+        Color  grey  = new Color(152, 148, 175, 197);
         panel.setOpaque(true);
         panel.setBackground(grey);
         panel.setForeground(Color.WHITE);
@@ -40,10 +40,10 @@ public class Main {
         panel.add(title);
         panel1.add(dividend);
         panel1.add(divisor);
-        panel1.add(devide);
+        panel1.add(divide);
         panel1.add(resultLabel);
 
-        devide.addActionListener(e -> {
+        divide.addActionListener(e -> {
             try {
                 Double no1 = Double.valueOf(dividend.getText());
                 String divizor = divisor.getText();
